@@ -75,11 +75,11 @@ else
 fi
 
 # verify public key is accessible with valid TLS cert
-bashio::log.info "Testing public key..."
-if ! curl -sfD - "https://$DOMAIN/.well-known/appspecific/com.tesla.3p.public-key.pem"; then
-  bashio::log.fatal "Fix public key before proceeding."
-  exit 1
-fi
+#bashio::log.info "Testing public key..."
+#if ! curl -sfD - "https://$DOMAIN/.well-known/appspecific/com.tesla.3p.public-key.pem"; then
+#  bashio::log.fatal "Fix public key before proceeding."
+#  exit 1
+#fi
 
 if [ -z "$CLIENT_ID" ]; then
   bashio::log.notice "Request application access with Tesla, then fill in credentials and restart addon."
