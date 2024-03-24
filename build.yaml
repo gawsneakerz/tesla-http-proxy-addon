@@ -8,7 +8,7 @@ build_from:
 labels:
   org.opencontainers.image.title: "Tesla HTTP Proxy add-on"
   org.opencontainers.image.description: "Proxy requests for Tesla Fleet API"
-  org.opencontainers.image.source: "https://github.com/llamafilm/tesla-http-proxy-addon"
+  org.opencontainers.image.source: "https://github.com/gawsneakerz/tesla-http-proxy-addon"
   org.opencontainers.image.licenses: "MIT"
 args:
   TEMPIO_VERSION: "2021.09.0"
